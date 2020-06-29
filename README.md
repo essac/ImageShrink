@@ -3,6 +3,7 @@
 **Used in the project:**
 * Node.js.
 * Electron libery.
+* Bootstrap.
 * Javascript.
 * HTML.
 
