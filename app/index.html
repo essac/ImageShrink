@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ImageShrink</title>
+</head>
+
+<body>
+    <section>
+        <div id="main-output" class="d-flex flex-column align-items-center mx-5 mb-3 mt-3">
+            <!-- Logo -->
+            <div class="d-flex flex-row align-items-center mb-4">
+                <i class="far fa-image mr-2 display-4"></i>
+                <div class=" display-5">ImageShrink</div>
+            </div>
+
+            <!-- File Selection -->
+            <form id="image-form" class=" w-100">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="custom-file mb-4">
+                        <input id="image" type="file" class="custom-file-input rounded-0">
+                        <label id="image-name" class="custom-file-label rounded-0 border-primary" for="image">Click to
+                            choose an image to resize</label>
+                    </div>
+
+                    <div class="font-italic">Lower value = smaller file size</div>
+                    <input id="slider" type="range" min="0" max="100" class="form-control-range mb-2" />
+                    <button type="submit"
+                        class="btn btn-secondary text-uppercase rounded-0 btn-block mt-4 pinkBtn">Resize</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Completed message -->
+    <div id="alert" class="alert alert-dark fixed-bottom m-0 rounded-0 text-center">
+        <!-- Image resized to <strong id="percentage">50</strong>% quality -->
+    </div>
+
+    <!-- <script src="js/shrink-image.js"></script> -->
+    <script src="js/browse-files.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-color: whitesmoke;
+}
+
+#about-output {
+    height: 250px !important;
+}
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.custom-file-input,
+.custom-file-label::after {
+    cursor: pointer;
+    background-color: rgb(255, 159, 175) !important;
+}
+
+.custom-file-label {
+    padding-left: 6rem !important;
+    overflow: hidden;
+}
+
+.custom-file-label::after {
+    left: 0 !important;
+    right: auto;
+    content: "BROWSE" !important;
+    background-color: lightpink;
+    color: white;
+    border-radius: 0px;
+}
+
+.fa-image {
+    color: rgb(255, 159, 175);
+}
+
+.border-primary {
+    border-color: rgb(255, 159, 175) !important;
+    background-color: mistyrose !important;
+    border-width: 1px;
+    box-shadow: pink !important;
+}
+
+.btn-secondary {
+    border-color: rgb(255, 159, 175) !important;
+    border-width: 1px;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary:hover,
+.btn-secondary:visited,
+.btn-secondary:active,
+.btn-secondary.active,
+.btn-secondary:active:focus {
+    background-color: pink !important;
+    color: #ffffff !important;
+    border-width: 1px;
+    box-shadow: none !important;
+}
+
+.pinkBtn {
+    color: #ffffff;
+    background-color: rgb(255, 159, 175) !important;
+}
+
+:focus {
+    outline: 0;
+}
